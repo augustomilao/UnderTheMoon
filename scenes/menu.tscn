@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://imagens/menu/menudeitado.png" type="Texture" id=1]
+[ext_resource path="res://imagens/menu/play.png" type="Texture" id=2]
+
+[node name="menu" type="Node2D"]
+editor/display_folded = true
+
+[node name="canvas" type="CanvasLayer" parent="."]
+
+[node name="bg" type="Sprite" parent="canvas"]
+position = Vector2( 1589.73, 220.266 )
+texture = ExtResource( 1 )
+offset = Vector2( -1270, -40 )
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="canvas"]
+position = Vector2( 448.124, 220.993 )
+normal = ExtResource( 2 )
